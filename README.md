@@ -95,11 +95,11 @@ Set the `NEXT_PUBLIC_API_URL` environment variable in your frontend to point to 
 
 ## Environment Variables
 
-**Frontend:**
-- `NEXT_PUBLIC_API_URL` - Backend API URL (default: `http://localhost:8000`)
+**Frontend (Vercel):**
+- `NEXT_PUBLIC_API_BASE_URL` - Backend API URL (e.g., `https://whatsapp-wrapped-backend.onrender.com`)
 
-**Backend:**
-- `CORS_ORIGINS` - Allowed CORS origins (default: `*`)
+**Backend (Render/Railway/etc):**
+- `CORS_ORIGINS` - Comma-separated allowed origins (e.g., `https://your-app.vercel.app,https://custom-domain.com`)
 
 ## License
 
