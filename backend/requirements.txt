@@ -1,0 +1,19 @@
+# WhatsApp Wrapped Backend Dependencies
+# Core web framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Text analysis
+vaderSentiment>=3.3.2
+scikit-learn>=1.4.0
+emoji>=2.10.0
+regex>=2023.12.25
+
+# Validation
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
